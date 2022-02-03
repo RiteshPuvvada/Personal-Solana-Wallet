@@ -13,8 +13,8 @@ import (
 
 // transferCmd represents the transfer command
 var transferCmd = &cobra.Command{
-	Use:   "createWallet", 
-	Short: "Creates a new wallet", 
+	Use:   "transfer", 
+	Short: "Transfer SOL", 
 	Long: "Transfer SOL from your wallet to other Solana wallets.",
 	
 	Run: func(cmd *cobra.Command, args []string) {
